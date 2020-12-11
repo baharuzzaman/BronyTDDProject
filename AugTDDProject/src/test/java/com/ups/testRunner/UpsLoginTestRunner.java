@@ -61,8 +61,8 @@ public class UpsLoginTestRunner extends UpsDrivers {
 	}
 
 	@AfterMethod(alwaysRun = true)
-	void afterMethod() throws InterruptedException {
-		Thread.sleep(2000);
+	void afterMethod(){
+		//Thread.sleep(2000);
 		driver.close();
 	}
 
