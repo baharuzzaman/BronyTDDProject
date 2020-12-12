@@ -3,12 +3,12 @@
 <suite name="UpsShippingPageTest Suite">
 	<test thread-count="5" name="UpsShippingPageTest">
 		<parameter name="browser" value="ChromeBrowser" />
-		<parameter name="browser" value="FirefoxBrowser" /> 
+		<parameter name="browser" value="FirefoxBrowser" />
 		<classes>
 			<class name="com.ups.testRunner.UpsShippingTestRunner" />
-			<class name="com.ups.testRunner.UpsLoginTestRunner" />
+			<!-- <class name="com.ups.testRunner.UpsLoginTestRunner" />
 			<class name="com.ups.testRunner.UpsTrackingTestRunner" />
-
+ -->
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
